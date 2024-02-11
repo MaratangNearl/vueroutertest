@@ -4,4 +4,6 @@ module.exports = defineConfig({
   devServer: {
     historyApiFallback: true,
   },
+  outputDir: './docs',
+  publicPath: '/vueroutertest/'
 })
